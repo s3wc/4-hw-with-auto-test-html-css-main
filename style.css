@@ -211,14 +211,14 @@ footer {
 @media screen and (max-width: 1200px) {
     .main-section {
         max-height: fit-content;
-        padding-bottom: 20px;
+        padding-bottom: 100px;
     }
 
     .main-section .wrapper {
         display: flex;
         flex-direction: column-reverse;
         justify-content: flex-start;
-        gap: 20px;
+        gap: 60px;
     }
 
     .main-image {
@@ -226,11 +226,11 @@ footer {
     }
 
     .text-wrapper {
-        max-width: fit-content;
+        max-width: 560px;
     }
 
     .about-section {
-        padding: 20px 0px;
+        padding: 60px 0px;
     }
 }
 
@@ -238,26 +238,26 @@ footer {
     .info-wrapper {
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 60px;
     }
 }
 
 /* Стили для адаптива под мобильные устройства */
 @media screen and (max-width: 576px) {
     .main-section {
-        padding: 20px 0;
+        padding: 30px 0px 60px;
     }
 
     .main-section .wrapper {
-        gap: 50px;
+        gap: 40px;
     }
 
     .main-title {
-        font-weight: 700;
+        font-size: 36px;
     }
 
     .about-section .wrapper,
     .info-wrapper {
-        gap: 20px;
+        gap: 50px;
     }
 }
